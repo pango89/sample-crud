@@ -34,7 +34,6 @@ export class UserDto {
 export class UserAddDto {
   @IsString()
   @IsNotEmpty()
-  @Type()
   public firstName: string;
 
   @IsNotEmpty()
