@@ -1,7 +1,5 @@
 import { User } from '../entities/user.entity';
 import { getHash } from '../utils/crypto.util';
-
-import { Type } from 'class-transformer';
 import {
   IsEmail,
   IsNotEmpty,
